@@ -99,6 +99,14 @@
     line-height:1.1;
     }
 
+    .offer-delivery{
+      margin:25px 0;
+      color:var(--gold-light);
+      text-align:center;
+      font-size:.95rem;
+      letter-spacing:.04em;
+   }
+
     .offer-title::after{
 
       left:50%;
@@ -221,7 +229,7 @@
 
     .logo-nav{
 
-        height:48px;
+        height:36px;
         
         width:auto;
         
@@ -408,14 +416,12 @@
     }
     
     .hero-note{
-    
-    margin-top:22px;
-    
-    color:#8A929A;
-    
-    font-size:.95rem;
-    
-    }
+      margin-top:18px;
+      font-size:.95rem;
+      color:var(--gold-light);
+      letter-spacing:.08em;
+      text-transform:uppercase;
+  }
 
     .hero-note-v3{
       display:flex;
@@ -475,6 +481,14 @@
     border:1px solid rgba(255,255,255,.03);
     
     }
+
+    .membership-price{
+      color:var(--gold-light);
+      font-size:.95rem;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      margin:32px 0 18px;
+  }
 
     /* -------------------- */
     /* BUTTONS */
@@ -972,6 +986,38 @@
       transition:.35s ease;
   
   }
+
+  .community-copy{
+
+    max-width:850px;
+ 
+    margin:0 auto 50px;
+ 
+    text-align:center;
+ 
+    color:var(--gray);
+ 
+    line-height:1.9;
+ 
+ }
+ 
+ .community-cta{
+ 
+    text-align:center;
+ 
+    margin-top:50px;
+ 
+ }
+ 
+ .community-cta p{
+ 
+    margin-bottom:25px;
+ 
+    color:var(--gold-light);
+ 
+    font-size:1.05rem;
+ 
+ }
   
   .community-image-card:hover{
   
@@ -1502,6 +1548,22 @@ grid-template-columns:1fr;
     border-radius:20px;
     
     }
+
+    .journey-note{
+
+      text-align:center;
+  
+      margin-top:50px;
+  
+      color:var(--gold-light);
+  
+      font-size:1rem;
+  
+      letter-spacing:.04em;
+  
+      line-height:1.8;
+  
+  }
     
     /* -------------------- */
     /* OFFER */
